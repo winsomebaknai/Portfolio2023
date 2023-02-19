@@ -4,7 +4,7 @@ import { motion } from "framer-motion"
 
 type Props = {}
 
-function Skill({}: Props) {
+function Skill() {
   return (
 
 
@@ -23,7 +23,7 @@ function Skill({}: Props) {
 
 
         {/* Python */}
-        <div className='grid grid-cols-4 gap-5'>
+        <div className='grid grid-cols-2 gap-3'>
             <div className='group relative flex cursor-pointer'>
                 <motion.img 
                     initial={{
@@ -34,89 +34,15 @@ function Skill({}: Props) {
 
                 src='py.png' alt='python_logo'
                 
-                className='rounded-full border border-red-500 object-cover w-24 h-24 xl:w-32 xl:h-32 filter group-hover:grayscale transition duration-300 ease-in-out'/>
+                className='rounded-full border border-red-500 object-cover h-24 w-28 xl:w-32 xl:h-32 md:h-28 md:w-28 filter group-hover:grayscale transition duration-300 ease-in-out'/>
 
-                <div className='absolute opacity-0 group-hover:opacity-80 transition duration-300 ese-in-out group-hover:bg-white h-24 w-28 md:h-28 md:w-28 xl:w-32 xl:h-32 rounded-full z-0'>
+                <div className='absolute opacity-0 group-hover:opacity-80 transition duration-300 ease-in-out group-hover:bg-white h-24 w-28 md:h-28 md:w-28 xl:w-32 xl:h-32 rounded-full z-0'>
                 <div className='flex item-center justify-center h-full'>
                     <p className='text-3xl font-bold text-black opacity-100'>100%</p>
                 </div>
                 </div>
             </div>
         </div>
-
-                        {/* Skill1 */}
-        <div className='grid grid-cols-4 gap-5'>
-            <div className='group relative flex cursor-pointer'>
-                <motion.img 
-                    initial={{
-                        opacity:0,
-                    }}
-                    transition={{ duration:2 }}
-                    whileInView={{ opacity:1}}
-
-                src='py.png' alt='python_logo'
-                
-                className='rounded-full border border-red-500 object-cover w-24 h-24 xl:w-32 xl:h-32 filter group-hover:grayscale transition duration-300 ease-in-out'/>
-
-                <div className='absolute opacity-0 group-hover:opacity-80 transition duration-300 ese-in-out group-hover:bg-white h-24 w-28 md:h-28 md:w-28 xl:w-32 xl:h-32 rounded-full z-0'>
-                <div className='flex item-center justify-center h-full'>
-                    <p className='text-3xl font-bold text-black opacity-100'>100%</p>
-                </div>
-                </div>
-            </div>
-        </div>
-
-                    {/* Skill2 */}
-                    <div className='grid grid-cols-4 gap-5'>
-            <div className='group relative flex cursor-pointer'>
-                <motion.img 
-                    initial={{
-                        opacity:0,
-                    }}
-                    transition={{ duration:2 }}
-                    whileInView={{ opacity:1}}
-
-                src='py.png' alt='python_logo'
-                
-                className='rounded-full border border-red-500 object-cover w-24 h-24 xl:w-32 xl:h-32 filter group-hover:grayscale transition duration-300 ease-in-out'/>
-
-                <div className='absolute opacity-0 group-hover:opacity-80 transition duration-300 ese-in-out group-hover:bg-white h-24 w-28 md:h-28 md:w-28 xl:w-32 xl:h-32 rounded-full z-0'>
-                <div className='flex item-center justify-center h-full'>
-                    <p className='text-3xl font-bold text-black opacity-100'>100%</p>
-                </div>
-                </div>
-            </div>
-        </div>
-
-
-                        {/* skill3 */}
-                        <div className='grid grid-cols-4 gap-5'>
-            <div className='group relative flex cursor-pointer'>
-                <motion.img 
-                    initial={{
-                        opacity:0,
-                    }}
-                    transition={{ duration:2 }}
-                    whileInView={{ opacity:1}}
-
-                src='py.png' alt='python_logo'
-                
-                className='rounded-full border border-red-500 object-cover w-24 h-24 xl:w-32 xl:h-32 filter group-hover:grayscale transition duration-300 ease-in-out'/>
-
-                <div className='absolute opacity-0 group-hover:opacity-80 transition duration-300 ese-in-out group-hover:bg-white h-24 w-28 md:h-28 md:w-28 xl:w-32 xl:h-32 rounded-full z-0'>
-                <div className='flex item-center justify-center h-full'>
-                    <p className='text-3xl font-bold text-black opacity-100'>100%</p>
-                </div>
-                </div>
-            </div>
-        </div>
-
-
-
-
-
-
-
 
     </motion.div>
   )

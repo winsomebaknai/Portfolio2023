@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react'
 import { useTypewriter, Cursor } from 'react-simple-typewriter'
@@ -5,7 +6,7 @@ import BackgroundCircle from './BackgroundCircle';
 
 type Props = {}
 
-function Hero({}: Props) {
+function Hero() {
 
   const [text,count] = useTypewriter({
     words:["Hi, The Name's Baknai",
@@ -20,6 +21,8 @@ function Hero({}: Props) {
       <BackgroundCircle />
       <img className='relative rounded-full h-32 w-32 mx-auto object-cover'
       src="/pro.jpg" alt="profile" />
+
+      
 
       <div className='z-20'>
         <h2 className='text-sm uppercase text-gray-500 pb-2 tracking-[15px]'>Cool-Dude</h2>

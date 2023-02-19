@@ -3,7 +3,7 @@ import { motion } from "framer-motion"
 
 type Props = {}
 
-function ExperienceCard({}: Props) {
+function ExperienceCard() {
   return (
         <article className='flex flex-col rounded-lg items-center space-y-7 flex-shrink-0 w-[500px] md:-[600px] xl:w-[900px] snap-center p-10 bg-[#292929] hover:opacity-100 opacity-40 cursor-pointer transition-opacity duration-200 overflow-hidden'>
             <motion.img 
@@ -31,12 +31,12 @@ function ExperienceCard({}: Props) {
 
                 {/* technology */}
                 <div className='flex space-x-2 my-2'>
-                    <img className="h-10 w-10 rounded-full"  src="" alt="datastructure" />
+                    <img className="h-10 w-10 rounded-full"  src="pro2.jpg" alt="datastructure" />
 
 
-                    <img className="h-10 w-10 rounded-full"  src="" alt="OOP" />
+                    <img className="h-10 w-10 rounded-full"  src="pro2.jpg" alt="OOP" />
 
-                    <img className="h-10 w-10 rounded-full"  src="" alt="Java" />
+                    <img className="h-10 w-10 rounded-full"  src="pro2.jpg" alt="Java" />
                     
                 </div>
 
